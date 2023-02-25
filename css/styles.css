@@ -9,7 +9,7 @@ h1, h2, h3, h5, h6{
 .big-heading{
     /* padding-top: 60px; */
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
     color: #fff;
 }
@@ -69,6 +69,10 @@ h1, h2, h3, h5, h6{
 
 .navbar-nav{
     text-align: right;
+}
+
+#gp-btn{
+    margin-right: 10px;
 }
 
 /* features */
@@ -160,13 +164,9 @@ h4{
     padding-top: 20px;
 }
 
-#cta-head{
-    font-weight: 600;
-    font-size: 3rem;
+#cta .big-heading{
     width: 60%;
-    margin: 0 auto 0 auto;
-    color: #fff;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
 }
 
 /* Footer */
@@ -184,6 +184,17 @@ h4{
 
 
 @media (max-width:770px){
+    /* headings */
+    .big-heading{
+        font-size: 2rem;
+    }
+
+
+    /* Title */
+    .navbar{
+        padding-bottom: 2rem;
+    }
+
     #title{
         text-align: center;
     }
@@ -197,11 +208,29 @@ h4{
     }
     .title-heading{
         text-align: center;
-        width: 95%%;
+        width: 95%;
         font-size: 3rem;
     }
-    .card{
-        width: 100%;
+
+    /* testimonials */
+
+    .testimonial-text{
+        font-size: 1.5rem;
+    }
+
+    /* pricing */
+    #pricing{
+        padding: 0;
+    }
+
+    .price-main{
+        margin-top: 30px;
+    }
+
+    /* cta */
+    #cta .big-heading{
+        width: 90%;
+        font-size: 1.7rem;
     }
 }
 

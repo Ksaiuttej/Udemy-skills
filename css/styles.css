@@ -200,5 +200,8 @@ h4{
         width: 95%%;
         font-size: 3rem;
     }
+    .card{
+        width: 100%;
+    }
 }
 
